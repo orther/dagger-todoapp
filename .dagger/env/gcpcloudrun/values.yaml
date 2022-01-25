@@ -1,0 +1,23 @@
+plan:
+    package: ./gcpcloudrun
+name: gcpcloudrun
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age:
+        - recipient: age1y5gpk2yhz0ceddmrdxldzrpx8z7cqmmuke0h3d96pds0gusy0vqqz72jey
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBFMDJTSEJWOTRKYW1XS2lj
+            UGYwMk1qajk2NURNZVVWSEY3VktRSmVGamw0Ck5MNEs4enlOMGJ5eHM1TFU0YVho
+            NEZCajhOajFYWmFhN2JTdE1KU2svcjQKLS0tIFpTUGpEY2RDQVJLODI0RVAwbmpM
+            OUlaRlZNZ0xhM0lxOWEzcktSWFlCRWcKV9xq5cUps+UAv7EeYxMCLcsl8xjYIZrh
+            TdphUUM64MTTBgx1EYWdl5FkRtyP5+sYGS5WU/yuZobcSMCF5vROiA==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2022-01-25T19:18:07Z"
+    mac: ENC[AES256_GCM,data:bDjtEFTkRqW7LWD9cGAXjUp9BeEj3vCSfAP59CeyG+CTxOF7lHiPH3O3L2ZHiP2e1MH2+nBYh2kLUB0FkcWkdxfvQWz+MLrmQmfFa10BsKGGIf+8PRDiVBkcd4+UIpB2Jalmj/k9Q9oCXY8tIfamVzIuoK/CU392qxJPYl+sjUA=,iv:RcHX8ZD1nL3R7TpM8Fg7EnhMNqttuOwEnL5FkUJDV00=,tag:hrdedERgqXOGUfDgB3AEdA==,type:str]
+    pgp: []
+    encrypted_suffix: secret
+    version: 3.7.1
