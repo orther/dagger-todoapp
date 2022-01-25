@@ -1,0 +1,30 @@
+plan:
+    package: ./plans/local
+name: local
+inputs:
+    app.source:
+        dir:
+            path: .
+    dockerSocket:
+        socket:
+            unix: /Users/brandon/.colima/docker.sock
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age:
+        - recipient: age1y5gpk2yhz0ceddmrdxldzrpx8z7cqmmuke0h3d96pds0gusy0vqqz72jey
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBuSDNBWDRUMWU3QUVmNG1X
+            UEt0WW1MS2M1c1grQWpiL2JQclhCekV0VlNvCi9lZjk1ekdMVnBPb0tHOWJPekRV
+            NmRtaE9DdS8vNlBXNUhadlkwRzJNYm8KLS0tIDBVUWNnc1pXNFZGSm5ldTdlTThO
+            NGQ3VngvYVU2eGJsVEFXQWEzcWRXOU0KTffFRP23bHU1pj2vAwhyvZeR7/nbBpOA
+            7bKjWvC/fazvZ1D0Qh1ZqZlHEHzjrb1x7MK3E2pp14L/OCnO845LUQ==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2022-01-25T04:24:42Z"
+    mac: ENC[AES256_GCM,data:eH/4a308nw5wyBGjBRBagI6CT8KDCfGWc4qz+L8IUiITxksoBzgb1MuKIxCKvc1EA5Ch5rCNC2trru7CY2m03jH/0O/5gI9bHQV8MuO8GGF/NSMqIOLaBdL2oUjkCwYqb0xuvp8XYBceWsViF4lLBKscuxCrWaXRrXDSluK2G0M=,iv:Vg3UkWvVgaZAaIQjqvjh7td6l+K+KpE2Ex3YdXDT5ho=,tag:AZqnUwtZG8+zjKNqPdQQAw==,type:str]
+    pgp: []
+    encrypted_suffix: secret
+    version: 3.7.1
